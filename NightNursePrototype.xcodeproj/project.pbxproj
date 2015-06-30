@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222858751B41E191001D6D32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222858741B41E191001D6D32 /* AppDelegate.swift */; };
+		222858771B41E191001D6D32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222858761B41E191001D6D32 /* ViewController.swift */; };
+		2228587A1B41E191001D6D32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222858781B41E191001D6D32 /* Main.storyboard */; };
+		2228587C1B41E191001D6D32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2228587B1B41E191001D6D32 /* Assets.xcassets */; };
+		2228587F1B41E191001D6D32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2228587D1B41E191001D6D32 /* LaunchScreen.storyboard */; };
+		2228588A1B41E191001D6D32 /* NightNursePrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222858891B41E191001D6D32 /* NightNursePrototypeTests.swift */; };
+		222858951B41E191001D6D32 /* NightNursePrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222858941B41E191001D6D32 /* NightNursePrototypeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		222858861B41E191001D6D32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 222858691B41E190001D6D32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 222858701B41E190001D6D32;
+			remoteInfo = NightNursePrototype;
+		};
+		222858911B41E191001D6D32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 222858691B41E190001D6D32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 222858701B41E190001D6D32;
+			remoteInfo = NightNursePrototype;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		222858711B41E191001D6D32 /* NightNursePrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NightNursePrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		222858741B41E191001D6D32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		222858761B41E191001D6D32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		222858791B41E191001D6D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2228587B1B41E191001D6D32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2228587E1B41E191001D6D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		222858801B41E191001D6D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222858851B41E191001D6D32 /* NightNursePrototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightNursePrototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		222858891B41E191001D6D32 /* NightNursePrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightNursePrototypeTests.swift; sourceTree = "<group>"; };
+		2228588B1B41E191001D6D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222858901B41E191001D6D32 /* NightNursePrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NightNursePrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		222858941B41E191001D6D32 /* NightNursePrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightNursePrototypeUITests.swift; sourceTree = "<group>"; };
+		222858961B41E191001D6D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2228586E1B41E190001D6D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222858821B41E191001D6D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2228588D1B41E191001D6D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222858681B41E190001D6D32 = {
+			isa = PBXGroup;
+			children = (
+				222858731B41E191001D6D32 /* NightNursePrototype */,
+				222858881B41E191001D6D32 /* NightNursePrototypeTests */,
+				222858931B41E191001D6D32 /* NightNursePrototypeUITests */,
+				222858721B41E191001D6D32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		222858721B41E191001D6D32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				222858711B41E191001D6D32 /* NightNursePrototype.app */,
+				222858851B41E191001D6D32 /* NightNursePrototypeTests.xctest */,
+				222858901B41E191001D6D32 /* NightNursePrototypeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		222858731B41E191001D6D32 /* NightNursePrototype */ = {
+			isa = PBXGroup;
+			children = (
+				222858741B41E191001D6D32 /* AppDelegate.swift */,
+				222858761B41E191001D6D32 /* ViewController.swift */,
+				222858781B41E191001D6D32 /* Main.storyboard */,
+				2228587B1B41E191001D6D32 /* Assets.xcassets */,
+				2228587D1B41E191001D6D32 /* LaunchScreen.storyboard */,
+				222858801B41E191001D6D32 /* Info.plist */,
+			);
+			path = NightNursePrototype;
+			sourceTree = "<group>";
+		};
+		222858881B41E191001D6D32 /* NightNursePrototypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				222858891B41E191001D6D32 /* NightNursePrototypeTests.swift */,
+				2228588B1B41E191001D6D32 /* Info.plist */,
+			);
+			path = NightNursePrototypeTests;
+			sourceTree = "<group>";
+		};
+		222858931B41E191001D6D32 /* NightNursePrototypeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				222858941B41E191001D6D32 /* NightNursePrototypeUITests.swift */,
+				222858961B41E191001D6D32 /* Info.plist */,
+			);
+			path = NightNursePrototypeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		222858701B41E190001D6D32 /* NightNursePrototype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222858991B41E191001D6D32 /* Build configuration list for PBXNativeTarget "NightNursePrototype" */;
+			buildPhases = (
+				2228586D1B41E190001D6D32 /* Sources */,
+				2228586E1B41E190001D6D32 /* Frameworks */,
+				2228586F1B41E190001D6D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NightNursePrototype;
+			productName = NightNursePrototype;
+			productReference = 222858711B41E191001D6D32 /* NightNursePrototype.app */;
+			productType = "com.apple.product-type.application";
+		};
+		222858841B41E191001D6D32 /* NightNursePrototypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2228589C1B41E191001D6D32 /* Build configuration list for PBXNativeTarget "NightNursePrototypeTests" */;
+			buildPhases = (
+				222858811B41E191001D6D32 /* Sources */,
+				222858821B41E191001D6D32 /* Frameworks */,
+				222858831B41E191001D6D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				222858871B41E191001D6D32 /* PBXTargetDependency */,
+			);
+			name = NightNursePrototypeTests;
+			productName = NightNursePrototypeTests;
+			productReference = 222858851B41E191001D6D32 /* NightNursePrototypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2228588F1B41E191001D6D32 /* NightNursePrototypeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2228589F1B41E191001D6D32 /* Build configuration list for PBXNativeTarget "NightNursePrototypeUITests" */;
+			buildPhases = (
+				2228588C1B41E191001D6D32 /* Sources */,
+				2228588D1B41E191001D6D32 /* Frameworks */,
+				2228588E1B41E191001D6D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				222858921B41E191001D6D32 /* PBXTargetDependency */,
+			);
+			name = NightNursePrototypeUITests;
+			productName = NightNursePrototypeUITests;
+			productReference = 222858901B41E191001D6D32 /* NightNursePrototypeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		222858691B41E190001D6D32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Beyond 2021";
+				TargetAttributes = {
+					222858701B41E190001D6D32 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					222858841B41E191001D6D32 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 222858701B41E190001D6D32;
+					};
+					2228588F1B41E191001D6D32 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 222858701B41E190001D6D32;
+					};
+				};
+			};
+			buildConfigurationList = 2228586C1B41E190001D6D32 /* Build configuration list for PBXProject "NightNursePrototype" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 222858681B41E190001D6D32;
+			productRefGroup = 222858721B41E191001D6D32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				222858701B41E190001D6D32 /* NightNursePrototype */,
+				222858841B41E191001D6D32 /* NightNursePrototypeTests */,
+				2228588F1B41E191001D6D32 /* NightNursePrototypeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2228586F1B41E190001D6D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2228587F1B41E191001D6D32 /* LaunchScreen.storyboard in Resources */,
+				2228587C1B41E191001D6D32 /* Assets.xcassets in Resources */,
+				2228587A1B41E191001D6D32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222858831B41E191001D6D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2228588E1B41E191001D6D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2228586D1B41E190001D6D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222858771B41E191001D6D32 /* ViewController.swift in Sources */,
+				222858751B41E191001D6D32 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		222858811B41E191001D6D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2228588A1B41E191001D6D32 /* NightNursePrototypeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2228588C1B41E191001D6D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222858951B41E191001D6D32 /* NightNursePrototypeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		222858871B41E191001D6D32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 222858701B41E190001D6D32 /* NightNursePrototype */;
+			targetProxy = 222858861B41E191001D6D32 /* PBXContainerItemProxy */;
+		};
+		222858921B41E191001D6D32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 222858701B41E190001D6D32 /* NightNursePrototype */;
+			targetProxy = 222858911B41E191001D6D32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		222858781B41E191001D6D32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				222858791B41E191001D6D32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2228587D1B41E191001D6D32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2228587E1B41E191001D6D32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		222858971B41E191001D6D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		222858981B41E191001D6D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2228589A1B41E191001D6D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NightNursePrototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyond2021.NightNursePrototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2228589B1B41E191001D6D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NightNursePrototype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyond2021.NightNursePrototype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2228589D1B41E191001D6D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NightNursePrototypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyond2021.NightNursePrototypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NightNursePrototype.app/NightNursePrototype";
+			};
+			name = Debug;
+		};
+		2228589E1B41E191001D6D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NightNursePrototypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyond2021.NightNursePrototypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NightNursePrototype.app/NightNursePrototype";
+			};
+			name = Release;
+		};
+		222858A01B41E191001D6D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NightNursePrototypeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyond2021.NightNursePrototypeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NightNursePrototype;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		222858A11B41E191001D6D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NightNursePrototypeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyond2021.NightNursePrototypeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NightNursePrototype;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2228586C1B41E190001D6D32 /* Build configuration list for PBXProject "NightNursePrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222858971B41E191001D6D32 /* Debug */,
+				222858981B41E191001D6D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		222858991B41E191001D6D32 /* Build configuration list for PBXNativeTarget "NightNursePrototype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2228589A1B41E191001D6D32 /* Debug */,
+				2228589B1B41E191001D6D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2228589C1B41E191001D6D32 /* Build configuration list for PBXNativeTarget "NightNursePrototypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2228589D1B41E191001D6D32 /* Debug */,
+				2228589E1B41E191001D6D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2228589F1B41E191001D6D32 /* Build configuration list for PBXNativeTarget "NightNursePrototypeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222858A01B41E191001D6D32 /* Debug */,
+				222858A11B41E191001D6D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 222858691B41E190001D6D32 /* Project object */;
+}
